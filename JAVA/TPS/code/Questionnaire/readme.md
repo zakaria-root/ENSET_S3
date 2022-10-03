@@ -16,17 +16,23 @@ correction de chaque question (l’option correcte de chaque question).
 
  <h1 align="center">
   <br>
-<img src='images/remplisage.png' width='800'/> 
+<img  src='images/remplisage.png' width='800'/> 
+
   <br/>
+  > Remplissage du questionnaire <
+
 </h1>
  <h1 align="center">
   <br>
 <img src='images/jouer.png' width='800'/> 
   <br/>
+   > Deroulement du questionnaire <
 </h1>
  <h1 align="center">
   <br>
 <img src='images/resulta.png' width='800'/> 
-  <br/>
+
+ <br/>
+ > La resulta du questionnaire <
 </h1>
 </h1>
