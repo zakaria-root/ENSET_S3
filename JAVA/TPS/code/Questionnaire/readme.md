@@ -1,24 +1,32 @@
-## Complex_library
-> un programe qui permet de cree une bibliotheque pour faire la gestion d'un nombre complex
+## Questionnaire
+> Créer une application qui permet de saisir un questionnaire avec l’ensemble des
+questions et les options de réponses. Ensuite vous affichez le questionnaire pour
+l’utilisateur pour répondre aux questions et à la fin affichez le score final avec la
+correction de chaque question (l’option correcte de chaque question).
 
-## Les Fonctions principaux de la bibliotheque
+## Les Fonctions principaux de lapplication
 
-- [x] l'adition des deux complex
-- [x] la multiplication des deux complex 
-- [x] la soustraction des deux complex
-- [x] la devision des deux complex
-- [x] l'argument d'un nombre complex
-- [x] le polar d'un nombre complex
-- [x] le comjuge d'un nombre complex
-- [X] la norme d'un nombre complex
-- [X] extraire la partie imaginaire d'un nombre complex
-- [X] extraire la partie reel d'un nombre complex
+- [x]  saisir un questionnaire 
+- [x]  la devision des deux complex
+- [x]  affichez le questionnaire en donnant à l'utilisateur la main pour choisir la réponse
+- [x]  affichez la resulta du questionnaire avec la correction
+- [x]  affichez le score finale de l'utilisateur 
 
 ## L'execution du programme
 
  <h1 align="center">
   <br>
-<img src='images/complex.png' width='800'/> 
+<img src='images/remplisage.png' width='800'/> 
+  <br/>
+</h1>
+ <h1 align="center">
+  <br>
+<img src='images/jouer.png' width='800'/> 
+  <br/>
+</h1>
+ <h1 align="center">
+  <br>
+<img src='images/resulta.png' width='800'/> 
   <br/>
 </h1>
 </h1>
