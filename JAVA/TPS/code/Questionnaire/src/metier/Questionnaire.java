@@ -37,6 +37,7 @@ public class Questionnaire {
         Scanner sc = new Scanner(System.in);
         Question qsCrr;
         Reponse repCrr;
+        int sumScore = 0;
         for (int i = 0; i < maxQSt; i++) {
             qsCrr = new Question();
             System.out.println("les information de la question n" + (i + 1));
@@ -65,7 +66,7 @@ public class Questionnaire {
     public void resulta() {
         System.out.println("la resulta du questionnaire ");
         System.out.print(this.toString());
-        System.out.println("votre score est : " + this.scoreTotale + "/20");
+        System.out.println("votre score est : " + this.scoreTotale + "/"+scoreTotale);
     }
 
     public void jouer() {
