@@ -5,10 +5,10 @@
 
  <h1 align="center">
   <br>
-<img  src='images/model.png' width='800'/>
+<img  src='images/model.png' width='600'/>
 
   <br/>
-  > Menu du questionnaire <
+  > Model de class <
 
 </h1>
 
