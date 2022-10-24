@@ -14,7 +14,6 @@ public class LigneDeCommande {
                 ", produit=" + produit +
                 '}';
     }
-
     private Long id;
     private Integer qte;
     private Double souTotal;
