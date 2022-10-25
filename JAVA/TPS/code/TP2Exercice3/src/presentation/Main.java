@@ -53,7 +53,7 @@ public class Main {
 //        System.out.println(client.getCommandes());
 //
 
-        commande.afficher();
+//        commande.afficher();
         System.out.println(commande);
     }
 

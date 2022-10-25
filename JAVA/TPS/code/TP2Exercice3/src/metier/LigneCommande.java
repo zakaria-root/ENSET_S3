@@ -29,16 +29,12 @@ public class LigneCommande {
         this.commande = commande;
     }
 
-    public void afficher(){
-        System.out.print(" |  quantite  " );
-        ordinateur.afficher();
-    }
+
 
     @Override
     public String toString() {
         return
-                 "   |   "+quantite +"    "+
-                "   |   " + ordinateur +
-                "   |   ";
+                 "\nla quantite d'ordinateur : "+quantite +"    "+
+                "" + ordinateur ;
     }
 }

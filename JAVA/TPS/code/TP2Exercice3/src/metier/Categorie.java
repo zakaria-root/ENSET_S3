@@ -43,14 +43,11 @@ public class Categorie {
         return null;
     }
 
-    public void afficher(){
-        System.out.print(" |   nom de categorie    |   description  |  " );
-    }
 
     @Override
     public String toString() {
-        return "   |   " +
-                "    |   " + nom + "    "+
-                "   |   " + description + '\'' ;
+        return "" +
+                "\nnom du categorie : " + nom + "    "+
+                "\ndescription du categorie :   " + description ;
     }
 }

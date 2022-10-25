@@ -72,20 +72,15 @@ public class Ordinateur {
         nombreOrdinateur++;
     }
 
-    public void afficher() {
-        System.out.print(" | nom de categorie  | marque  | prix  | description  |  Totale  " );
-
-categorie.afficher();
-    }
 
     @Override
     public String toString() {
-        return "  "+nom + '\'' +
-                " | " + marque + '\'' +
-                " | " + prix +
-                " | " + description + '\'' +
-                " | " + prixOrdinateurs() + '\'' +
-                " | " + categorie + '\'';
+        return "  \nnom d'ordinateur :"+nom +
+                " \nla marque d'ordinateur : " + marque +
+                " \nle prix d'ordinateur : " + prix +
+                " \nla description d'ordinateur : " + description +
+                " \nle totale d'ordinateur : " + prixOrdinateurs() +
+                "" + categorie ;
     }
 
     public Categorie getCategorie() {

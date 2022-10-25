@@ -106,19 +106,16 @@ public class Client {
         }
     }
 
-    public  void afficher(){
-        System.out.print(" |   nom de client   |   prenom  |   adresse  |   ville  |   telephone  |   email  |  " );
-    }
 
     @Override
     public String toString() {
-        return
-                "   " + nom + '\'' +
-                "   |   "+ prenom + '\'' +
-                "   |   " + adresse + '\'' +
-                "   |   "  + ville + '\'' +
-                "   |   " + telephone + '\'' +
-                "   |   " + email + '\'' ;
+        return  "\nles informations de client: \n**************************"+
+                "\nnom de client : " + nom +
+                "\nprenom de client : "+ prenom  +
+                "\naddress de client : " + adresse +
+                "\nville de client : "  + ville +
+                "\ntelephone de client : " + telephone +
+                "\nemail de client : " + email ;
     }
 
 }

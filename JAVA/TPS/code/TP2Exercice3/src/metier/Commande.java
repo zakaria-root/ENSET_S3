@@ -52,25 +52,20 @@ public class Commande {
         this.etatDeCommande = etatDeCommande;
     }
 
-    public void afficher() {
-        System.out.print(" | reference  |     date de commande    | etat de commande | ");
-        for (LigneCommande ligneCommande : ligneCommandes) {
-            ligneCommande.afficher();
-        }
-        client.afficher();
-    }
 
     @Override
     public String toString() {
         StringBuilder str = new StringBuilder();
+        int i = 0;
         for (LigneCommande ligneCommande : ligneCommandes) {
-            str.append(" | " + ligneCommande.toString());
+            i++;
+            str.append("\nl'ordinateur n "+i+":\n*************" + ligneCommande.toString());
         }
-        return "\n   " + reference + "    " +
-                "   |   " + dateCommande +
-                "    |   " + etatDeCommande +
-
-                str.toString() + "   |   " + client + '\'';
+        return "\nreference de la commande : " + reference + "    " +
+                "\ndate de commande :  " + dateCommande +
+                "\netat de commande : " + etatDeCommande +
+                "\nles ordinateurs de la commande : "+
+                str.toString() + "" + client + '\'';
 
     }
 
