@@ -13,10 +13,8 @@ public class Categorie {
         this.description = description;
         this.ordinateurs = ordinateurs;
     }
-
     public Categorie() {
     }
-
     public void ajouterOrdinateur(Ordinateur ordinateur) {
         if (ordinateurs.contains(ordinateur)) {
             ordinateurs.add(ordinateur);

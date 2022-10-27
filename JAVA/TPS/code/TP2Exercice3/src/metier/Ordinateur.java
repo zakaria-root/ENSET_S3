@@ -7,19 +7,17 @@ public class Ordinateur {
     private String marque;
     private Double prix;
     private String description;
-
     List<LigneCommande> ligneCommandes;
+
+    private Categorie categorie;
+
 
     public List<LigneCommande> getLigneCommandes() {
         return ligneCommandes;
     }
-
     public void setLigneCommandes(List<LigneCommande> ligneCommandes) {
         this.ligneCommandes = ligneCommandes;
     }
-
-    private Categorie categorie;
-
     public String getNom() {
         return nom;
     }
@@ -57,7 +55,12 @@ public class Ordinateur {
     public void setDescription(String description) {
         this.description = description;
     }
-
+    public Categorie getCategorie() {
+        return categorie;
+    }
+    public void setCategorie(Categorie categorie) {
+        this.categorie = categorie;
+    }
     public static void setNombreOrdinateur(int nombreOrdinateur) {
         Ordinateur.nombreOrdinateur = nombreOrdinateur;
     }
@@ -71,8 +74,6 @@ public class Ordinateur {
         this.categorie = categorie;
         nombreOrdinateur++;
     }
-
-
     @Override
     public String toString() {
         return "  \nnom d'ordinateur :"+nom +
@@ -81,14 +82,6 @@ public class Ordinateur {
                 " \nla description d'ordinateur : " + description +
                 " \nle totale d'ordinateur : " + prixOrdinateurs() +
                 "" + categorie ;
-    }
-
-    public Categorie getCategorie() {
-        return categorie;
-    }
-
-    public void setCategorie(Categorie categorie) {
-        this.categorie = categorie;
     }
 
     public double prixOrdinateurs() {

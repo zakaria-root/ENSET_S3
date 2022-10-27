@@ -12,6 +12,18 @@ public class Commande {
 
     private List<LigneCommande> ligneCommandes;
 
+    public Commande(int reference, Client client, Date dateCommande, String etatDeCommande, List<LigneCommande> ligneCommande) {
+        this.reference = reference;
+        this.client = client;
+        this.dateCommande = dateCommande;
+        this.etatDeCommande = etatDeCommande;
+        this.ligneCommandes = ligneCommande;
+    }
+
+    public Commande() {
+    }
+
+
     public List<LigneCommande> getLigneCommandes() {
         return ligneCommandes;
     }
@@ -69,22 +81,6 @@ public class Commande {
 
     }
 
-//    public LigneCommande getLigneCommande() {
-//        return ligneCommande;
-//    }
-//
-//    public void setLigneCommande(LigneCommande ligneCommande) {
-//        this.ligneCommande = ligneCommande;
-//    }
 
-    public Commande(int reference, Client client, Date dateCommande, String etatDeCommande, List<LigneCommande> ligneCommande) {
-        this.reference = reference;
-        this.client = client;
-        this.dateCommande = dateCommande;
-        this.etatDeCommande = etatDeCommande;
-        this.ligneCommandes = ligneCommande;
-    }
 
-    public Commande() {
-    }
 }

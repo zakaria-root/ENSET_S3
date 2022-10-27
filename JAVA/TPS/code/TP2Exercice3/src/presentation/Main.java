@@ -28,8 +28,7 @@ public class Main {
         Commande commande = commande = new Commande(1, client, new Date(), "etatDeCommande", new ArrayList<>());
         client.ajouterCommande(commande);
 
-//— déclarez et instanciez une liste de trois lignes de commandes pour la commande
-//        et les ordinateurs créés ;
+//— déclarez et instanciez une liste de trois lignes de commandes pour la commande et les ordinateurs créés ;
         List<LigneCommande> ligneDeCommandes = new ArrayList<>(3);
 
 
@@ -46,16 +45,9 @@ public class Main {
         ordinateurs.get(2).getLigneCommandes().add(ligneDeCommande2);
 //— affichez toutes les informations de la commande.
 
-        //declare and instantiate a client
-        //declare and instantiate a list of three lignedecommandes for the commande and the computers created
-
-        //display all the information of the commande
-//        System.out.println(client.getCommandes());
-//
-
-//        commande.afficher();
         System.out.println(commande);
     }
+
 
 
 }
