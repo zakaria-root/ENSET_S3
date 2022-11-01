@@ -1,4 +1,4 @@
-## Questionnaire
+## Gestion des commandes
 
 > L’objectif de cet exercice et de concevoir et de réaliser une application JAVA qui gère les
 >commandes des clients d’une entreprise qui vend des ordinateurs. L’application demandée
@@ -18,7 +18,7 @@ et les ordinateurs créés ;
 
 ## L’analyse d'application  :
 
-Premièrement et avant de partir de la partie développement nous schématisons un diagramme de classes afin de mieux comprendre l’aperçu général le schéma de notre application en modélisant ses classes, ses attributs, ses opérations et les relations entre ses objets. avec l’utilisation de site web lucidchart 
+>Premièrement et avant de partir de la partie développement nous schématisons un diagramme de classes afin de mieux comprendre l’aperçu général le schéma de notre >application en modélisant ses classes, ses attributs, ses opérations et les relations entre ses objets. avec l’utilisation de site web lucidchart 
 
 <h1 align="center">
   <br>
