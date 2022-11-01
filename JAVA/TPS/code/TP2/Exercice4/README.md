@@ -1,4 +1,4 @@
-## Gestion des commandes
+## Gestion du stocke
 
 > On souhaite réaliser une application JAVA dont l’objectif de cet exercice est de manipuler 
 > une collection d'objets de type produit en utilisant les listes et les interfaces.
