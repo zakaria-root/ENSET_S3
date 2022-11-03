@@ -9,7 +9,7 @@
 
 - [x] la creation d'un nouveau cilent 
 - [x] déclarez et intentiez une liste de trois ordinateurs ;
-- [x]déclarez et intentiez une catégorie ;
+- [x] déclarez et intentiez une catégorie ;
 - [x] déclarez et intentiez un client ;
 - [x] déclarez et instanciez une commande du client ;
 - [x] déclarez et instanciez une liste de trois lignes de commandes pour la commande
